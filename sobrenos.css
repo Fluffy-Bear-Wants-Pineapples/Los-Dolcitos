@@ -1,0 +1,159 @@
+/*== RESET(*) CSS ==*/
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+/*-------------*/
+
+
+/*== VARIÁVEIS(:root) CSS ==*/
+:root {
+	--branco-rosado: #ffdede;
+	--rosa-claro: #FED9D9;
+	--rosa-forte: #F58996;
+	--rosa-escuro: #e67280;
+	--rosa-muito-escuro: #d2586c;
+	--marrom-claro: #B4676B;
+	--marrom-escuro: #A2575C;
+}
+/*-------------*/
+
+
+/*== HTML(html): CONFIGURAÇÕES ABRANGENTES ==*/
+html {
+	background-color: var(--branco-rosado);
+	background-image: url("Fundo2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: var(--rosa-claro);
+}
+/*-------------*/
+
+
+/*== CABEÇALHO(header): ESTILIZAÇÃO  (Aparência, links(a), formulário(form) e input de texto(input)) ==*/
+#Cabeçalho {
+	height: 8vh;
+	margin-right: 15vw;
+	margin-left: 15vw;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--marrom-escuro);
+	border-radius: 0px 0px 50px 50px;
+}
+
+#Cabeçalho a {
+	text-decoration: none;
+	color: var(--rosa-claro);
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+#Cabeçalho a:hover {
+	color: var(--rosa-forte);
+	font-weight: bold;
+	transform: scale(1.05);
+}
+
+#Cabeçalho, a, form {
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+}
+
+#Cabeçalho form input {
+	width: 18vw;
+	padding: 0.4em;
+	background-color: var(--marrom-claro);
+	color: var(--rosa-claro);
+	border-radius: 50px;
+}
+
+::placeholder {
+	color: var(--rosa-claro);
+	font-size: 15px;
+	text-align: right;
+	padding: 0.3em;
+}
+/*-------------*/
+
+
+/* SOBRE NÓS(section): TÍTULO(h2) e TEXTO(p) */
+.Sobre_Nós {
+	margin: 10vh auto;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: var(--rosa-escuro);
+	text-shadow: 0px 5px 2px var(--rosa-muito-escuro);
+}
+
+.Sobre_Nós:hover {
+	color: var(--rosa-forte);
+	font-weight: bold;
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.SN {
+	display: block;
+	margin: 10vh auto;
+	background-color: var(--rosa-escuro);
+	border-radius: 70px;
+	border: 15px solid var(--rosa-muito-escuro);
+	width: 70vw;
+	height: 400vh;
+	text-align: center;
+	font-size: 30px;
+	padding: 2em;
+}
+
+.SN h3 {
+	text-shadow: 5px 5px 0px var(--rosa-muito-escuro);
+	font-size: 60px;
+	text-align: left;
+}
+
+.SN p {
+	border-top: 5px dashed var(--rosa-claro);
+	padding: 1em;
+}
+/*-------------*/
+
+
+/* RODAPÉ(footer) */
+footer {
+	display: flex;
+	padding: 2vh 0 2vh 0;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	background-color: var(--marrom-claro);
+	border-radius: 50px 50px 0px 0px;
+	align-items: center;
+}
+
+footer img {
+	max-height: 6vh;
+	width: auto;
+	margin-left: 37vw;
+}
+
+footer p {
+	margin-left: 10vw;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+footer span {
+	font-size: 30px;
+	font-weight: bold;
+}
+/*-------------*/
+
+/* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ */

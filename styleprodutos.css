@@ -1,0 +1,334 @@
+/*==== DIVISÃO(div): CONTAINER DOS PRODUTOS DE "BOLOS"(_B) ====*/
+.P_Container_B {
+	background-color: var(--marrom-claro);
+	border: 10px solid var(--marrom-escuro);
+	border-right-width: 25px;
+	border-left-width: 25px;
+	border-radius: 40px;
+  display: flex;
+  overflow-x: auto;
+	margin: 10vh 10vw;
+	padding: 3vh 3vw;
+}
+
+.P_Container_B::-webkit-scrollbar {
+	display: none;
+}
+/*--------------*/
+
+
+/* -- SUBTÍTULO(h2): CONTAINER DOS PRODUTOS DE "BOLOS"(_B) --*/
+.P_Subtítulos_B {
+	background-color: var(--marrom-escuro);
+	border-radius: 40px 40px 0 0;
+  margin: 10vh 62vw -13vh 15vw;
+  padding: 2vh 3vw;
+  text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.P_Subtítulos_B:hover {
+  color: var(--rosa-forte);
+	font-weight: bold;
+}
+
+.Anchor_L_B {
+	text-decoration: none;
+	color: var(--rosa-claro);
+}
+/*--------------*/
+
+
+/* -- BOTÕES(button): FLECHAS DO "SLIDER" (CARROSSEL DE IMAGENS) de "BOLOS"(_B) --*/
+.S_Anterior_B, .S_Próximo_B {
+	width: 50px;
+  height: 56vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: var(--rosa-claro);
+  top: 0;
+  z-index: 8;
+  border: none;
+  background: #a2575c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  opacity: 1;
+}
+
+.S_Anterior_B {
+	margin-top: 37vh;
+	margin-left: 11vw;
+  left: 0;
+ 	transform: rotate(180deg);
+}
+
+.S_Próximo_B {
+	margin-top: 37vh;
+	margin-right: 11vw;
+	right: 0;
+}
+
+.S_Anterior_B:hover,
+.S_Próximo_B:hover {
+  opacity: 1;
+}
+/*--------------*/
+
+
+/*============================================================*/
+
+
+/*==== DIVISÃO(div): CONTAINER DOS PRODUTOS DE "COOKIES"(_C) ====*/
+.P_Container_C {
+  background-color: var(--marrom-claro);
+	border: 10px solid var(--marrom-escuro);
+	border-right-width: 25px;
+	border-left-width: 25px;
+	border-radius: 40px;
+  display: flex;
+  overflow-x: auto;
+	margin: 10vh 10vw;
+	padding: 3vh 3vw;
+}
+
+.P_Container_C::-webkit-scrollbar {
+	display: none;
+}
+/*--------------*/
+
+
+/*-- SUBTÍTULO(h2): CONTAINER DOS PRODUTOS de "COOKIES"(_C) --*/
+.P_Subtítulos_C {
+	background-color: var(--marrom-escuro);
+	border-radius: 40px 40px 0 0;
+  margin: 10vh 45vw -13vh 30vw;
+  padding: 2vh 3vw;
+  text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.P_Subtítulos_C:hover {
+  color: var(--rosa-forte);
+	font-weight: bold;
+}
+
+.Anchor_L_C {
+	text-decoration: none;
+	color: var(--rosa-claro);
+}
+/*--------------*/
+
+
+/* -- BOTÕES(button): FLECHAS DO "SLIDER" (CARROSSEL DE IMAGENS) de "COOKIES"(_C) --*/
+.S_Anterior_C, .S_Próximo_C {
+  width: 50px;
+  height: 56vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: var(--rosa-claro);
+  top: 0;
+  z-index: 8;
+  border: none;
+  background: #a2575c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  opacity: 1;
+}
+
+.S_Anterior_C {
+	margin-top: 130vh;
+	margin-left: 11vw;
+  left: 0;
+ 	transform: rotate(180deg);
+}
+
+.S_Próximo_C {
+	margin-top: 130vh;
+	margin-right: 11vw;
+	right: 0;
+}
+
+.S_Anterior_C:hover,
+.S_Próximo_C:hover {
+  opacity: 1;
+}
+/*--------------*/
+
+
+/*============================================================*/
+
+
+/*==== DIVISÃO(div): CONTAINER DOS PRODUTOS DE "DRINKS"(_D) ====*/
+.P_Container_D {
+  background-color: var(--marrom-claro);
+	border: 10px solid var(--marrom-escuro);
+	border-right-width: 25px;
+	border-left-width: 25px;
+	border-radius: 40px;
+  display: flex;
+  overflow-x: auto;
+	margin: 10vh 10vw;
+	padding: 3vh 3vw;
+}
+
+.P_Container_D::-webkit-scrollbar {
+	display: none;
+}
+
+/* -- SUBTÍTULO(h2): CONTAINER DOS PRODUTOS de "DRINKS"(_D) --*/
+.P_Subtítulos_D {
+	background-color: var(--marrom-escuro);
+	border-radius: 40px 40px 0 0;
+  margin: 10vh 32vw -13vh 45vw;
+  padding: 2vh 3vw;
+  text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.P_Subtítulos_D:hover {
+  color: var(--rosa-forte);
+	font-weight: bold;
+}
+
+.Anchor_L_D {
+	text-decoration: none;
+	color: var(--rosa-claro);
+}
+/*--------------*/
+
+
+/* -- BOTÕES(button): FLECHAS DO "SLIDER" (CARROSSEL DE IMAGENS) de "DRINKS"(_D) --*/
+.S_Anterior_D, .S_Próximo_D {
+  width: 50px;
+  height: 56vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: var(--rosa-claro);
+  top: 0;
+  z-index: 8;
+  border: none;
+  background: #a2575c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  opacity: 1;
+}
+
+.S_Anterior_D {
+	margin-top: 223vh;
+	margin-left: 11vw;
+  	left: 0;
+ 	transform: rotate(180deg);
+}
+
+.S_Próximo_D {
+	margin-top: 223vh;
+	margin-right: 11vw;
+	right: 0;
+}
+
+.S_Anterior_D:hover,
+.S_Próximo_D:hover {
+  opacity: 1;
+}
+/*--------------*/
+
+
+/*============================================================*/
+
+
+/*==== DIVISÃO(div): CONTAINER DOS PRODUTOS DE "MACAROONS"(_M) ====*/
+.P_Container_M {
+		display: flex;
+		overflow-x: auto;
+		margin: 10vh 10vw; 
+		padding: 3vh 3vw;
+		background-color: var(--marrom-claro);
+		border-radius: 40px;
+		border: 10px solid var(--marrom-escuro);
+		border-right-width: 25px;
+		border-left-width: 25px;
+}
+
+.P_Container_M::-webkit-scrollbar {
+		display: none;
+}
+/*--------------*/
+
+
+/* -- SUBTÍTULO(h2): CONTAINER DOS PRODUTOS DE "MACAROONS"(_M) --*/
+.P_Subtítulos_M {
+		background-color: var(--marrom-escuro);
+		border-radius: 40px 40px 0 0;
+	  margin: 10vh 15vw -13vh 62vw;
+	  padding: 2vh 3vw;
+	  text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		text-transform: uppercase;
+}
+
+.P_Subtítulos_M:hover {
+  	color: var(--rosa-forte);
+		font-weight: bold;
+}
+
+.Anchor_L_M {
+		text-decoration: none;
+		color: var(--rosa-claro);
+}
+/*--------------*/
+
+
+/* -- BOTÕES(button): FLECHAS DO "SLIDER" (CARROSSEL DE IMAGENS) de "MACAROONS"(M) --*/
+.S_Anterior_M, .S_Próximo_M {
+	  width: 50px;
+	  height: 56vh;
+	  display: flex;
+	  position: absolute;
+	  justify-content: center;
+	  align-items: center;
+	  color: var(--rosa-claro);
+	  top: 0;
+	  z-index: 8;
+	  border: none;
+	  background: #a2575c;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  font-size: 50px;
+	  opacity: 1;
+}
+
+.S_Anterior_M {
+		margin-top: 316vh;
+		margin-left: 11vw;
+  	left: 0;
+ 		transform: rotate(180deg);
+}
+
+.S_Próximo_M {
+		margin-top: 316vh;
+		margin-right: 11vw;
+		right: 0;
+}
+
+.S_Anterior_M:hover,
+.S_Próximo_M:hover {
+  	opacity: 1;
+}
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
